@@ -4,7 +4,7 @@ import argparse
 import os
 
 parser = argparse.ArgumentParser(prog='MPSearcher', description='Checks MoviePass locations')
-parser.add_argument('-zip', type=str, nargs='?', default='90210', required=True, help='90210')
+parser.add_argument('-zip', type=str, nargs='?', default='90210', help='90210')
 args = parser.parse_args()
 zipcode = args.zip
 
