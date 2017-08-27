@@ -3,6 +3,8 @@ import requests
 import argparse
 import os
 
+# todo: add error handling, done messages
+
 parser = argparse.ArgumentParser(prog='MPSearcher', description='Checks MoviePass locations')
 parser.add_argument('-zip', type=str, nargs='?', default='90210', help='90210')
 args = parser.parse_args()
